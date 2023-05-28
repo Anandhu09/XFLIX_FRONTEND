@@ -1,0 +1,47 @@
+iframe{
+    width:83vw!important;
+    /* width:78rem; */
+    height:32rem;
+    border-radius:10px;
+}
+.videoTitle{
+    display:flex;
+    position: relative;
+    left:9vw;
+    font-size: 1.5rem !important;
+    font-weight: 700!important;
+}
+.timeRating{
+    position: relative;
+    left:9.375vw;
+    top:-2rem;
+    font-size: 0.9rem !important;
+    font-weight: 400!important;    
+}
+.votes{
+    position: relative;
+    right:8.85vw;
+    top:-1rem;
+    font-size: 0.9rem !important;
+    font-weight: 400!important;    
+}
+.circle-icon{
+    font-size:0.7rem!important;
+    align-self:center;
+}
+.up-vote{
+color:#FFFF!important;
+font-size: 1.2rem;
+}
+.down-vote{
+    color:#797979!important;
+    font-size: 1.2rem;
+}
+.video-details{
+    overflow: hidden;
+}
+@media only screen and (max-width:768px) {
+    iframe{
+        height:33vh;
+    }
+  }

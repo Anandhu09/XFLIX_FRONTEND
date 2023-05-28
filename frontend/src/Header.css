@@ -1,0 +1,33 @@
+.toprow{
+    display:flex;
+    padding: 2vw 2vw;
+    justify-content: space-between;
+}
+.search-desktop{
+    width:42vw;
+}
+.filters{
+    margin-bottom: 1rem !important;
+}
+
+.dialog-header, .dialog-header >label{
+    color:#FFFFFF;
+
+}
+.dialog-content{
+    padding: 1.25rem 0.5rem !important;
+}
+.select-box{
+    width:34.375vw;
+}
+@media only screen and (max-width:768px) {
+    .header-grid{
+        min-height: 20vw;
+    }
+    .search-desktop{
+        width:42vw;
+    }
+    .select-box{
+        width:70vw;
+    }
+  }

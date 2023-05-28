@@ -1,0 +1,8 @@
+.videoGrid{
+    padding:1vw 8vw;
+    overflow-x:hidden!important;
+}
+.videoCardGrid{
+    width:20vw;
+    margin-bottom:0.5rem!important;
+}

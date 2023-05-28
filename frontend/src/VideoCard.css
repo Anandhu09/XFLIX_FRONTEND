@@ -1,0 +1,22 @@
+.card{
+    width:20vw;
+    height:35vh;  
+}
+.card-content{
+   text-align: start;
+}
+.card-text{
+    font-weight: 700!important;
+}
+.card-image{
+    height:20vh;
+    object-fit: cover!important;
+}
+@media only screen and (max-width:768px) {
+  .card{
+    width:40vw;
+  }  
+  .card-image{
+   object-fit: fill!important;
+}
+}
